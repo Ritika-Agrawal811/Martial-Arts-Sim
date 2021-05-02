@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url(images/background.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.game {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-size: 18px;
+  background-color: blueviolet;
+  border: 2px solid #000;
+  border-right: none;
+  border-bottom: none;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: cornflowerblue;
+  border: 2px solid #000;
+  border-top: none;
+  border-left: none;
+}
